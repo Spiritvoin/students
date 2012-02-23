@@ -26,13 +26,14 @@ function my_custom_submenu_page_callback()
         <input type="hidden" name="settings">
         <table class="form-table">
 
-            <th scope="row"><h3>Баннеры</h3><th scope="row">
+            <th scope="row"><h3>Баннеры</h3>
+            <th scope="row">
 
-            <tr valign="top" class="top_banner">
-                <th scope="row">Верхний (адрес баннера) 726 × 90</th>
-                <td><input style="width:400px; height:25px;" type="text" name="top_banner_path"
-                           value="<?php echo get_option('top_banner_path');?>"/>
-                </td>
+                <tr valign="top" class="top_banner">
+            <th scope="row">Верхний (адрес баннера) 726 × 90</th>
+            <td><input style="width:400px; height:25px;" type="text" name="top_banner_path"
+                       value="<?php echo get_option('top_banner_path');?>"/>
+            </td>
 
             </tr>
             <tr valign="top">
@@ -56,12 +57,13 @@ function my_custom_submenu_page_callback()
                 </td>
             </tr>
 
-            <th scope="row"><h3>Соц сети</h3><th scope="row">
-            <tr valign="top">
-                <th scope="row">vk.com</th>
-                <td><input style="width:400px; height:25px;" type="text" name="student_vk"
-                           value="<?php echo get_option('student_vk', 'http://vk.com');?>"/>
-                </td>
+            <th scope="row"><h3>Соц сети</h3>
+            <th scope="row">
+                <tr valign="top">
+            <th scope="row">vk.com</th>
+            <td><input style="width:400px; height:25px;" type="text" name="student_vk"
+                       value="<?php echo get_option('student_vk', 'http://vk.com');?>"/>
+            </td>
             </tr>
             <tr valign="top">
                 <th scope="row">mail.ru</th>
@@ -75,13 +77,21 @@ function my_custom_submenu_page_callback()
                            value="<?php echo get_option('student_twitter', 'http://twitter.com/');?>"/>
                 </td>
             </tr>
-            <tr valign="top">
+            <tr valign="top" class="bottom_banner">
                 <th scope="row">google +</th>
                 <td><input style="width:400px; height:25px;" type="text" name="student_google"
                            value="<?php echo get_option('student_google', 'https://plus.google.com');?>"/>
                 </td>
             </tr>
 
+            <th scope="row"><h3>Настройка лайка вконтакте</h3>
+            <th scope="row">
+                <tr valign="top" class="top_banner">
+            <th scope="row">AppId вконтакта</th>
+            <td><input style="width:400px; height:25px;" type="text" name="vk_appId"
+                       value="<?php echo get_option('vk_appId');?>"/>
+            </td>
+            </tr>
 
             <style>
                 .bottom_banner {
