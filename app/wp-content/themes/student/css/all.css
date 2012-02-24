@@ -264,6 +264,7 @@ body{
 	background:url(../img/bg_news.png) repeat-x 0 100%;
 	padding:0 0 7px;
 	margin:39px 0 15px;
+	display:inline-block;
 	width:603px;
 }
 
@@ -275,7 +276,7 @@ body{
 	background:url(../img/bg_news.png) no-repeat 0 100%;
 	padding:0 0 7px;
 	margin:16px 0 -5px;
-	overflow:hidden;
+	display:inline-block;
 	width:100%;
 }
 
@@ -394,7 +395,7 @@ body{
 
 #conteiner ul.posts div.soc-like{
 	width:100%;
-	overflow:hidden;
+	display:inline-block;
 	margin:13px 0 0;
 }
 
