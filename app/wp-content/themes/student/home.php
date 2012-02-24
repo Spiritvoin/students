@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <div id="conteiner">
-    <div class="boxer">
+    <div class="boxer min-width">
         <?php query_posts('posts_per_page=1&category_name=post_on_home_page'); ?>
         <?php while (have_posts()) : the_post(); ?>
         <div class="box-post">
