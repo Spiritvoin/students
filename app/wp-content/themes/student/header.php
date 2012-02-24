@@ -43,7 +43,7 @@
         <div class="top">
             <a href="<?php bloginfo('url'); ?>" id="logo"></a>
 
-            <div class="banner"><a href="<?php echo get_option('top_banner_url');?>"><img
+            <div class="banner"><a href="<?php echo get_option('top_banner_url');?>" target="_blank"><img
                 src="<?php echo get_option('top_banner_path');?>" alt=""
                 title=""/></a></div>
         </div>
