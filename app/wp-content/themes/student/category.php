@@ -40,5 +40,5 @@
         <?php get_sidebar('bottom');?>
     </div>
 </div>
-
+</div>
 <?php get_footer(); ?>
