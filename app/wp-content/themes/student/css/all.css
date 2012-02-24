@@ -261,10 +261,14 @@ body{
 }
 
 #conteiner div.post{
-	background:url(../img/bg_news.png) no-repeat 0 100%;
+	background:url(../img/bg_news.png) repeat-x 0 100%;
 	padding:0 0 7px;
 	margin:39px 0 15px;
-	overflow:hidden;
+	display:inline-block;
+	width:603px;
+}
+
+#conteiner div.min-width div.post{
 	width:561px;
 }
 
@@ -272,7 +276,7 @@ body{
 	background:url(../img/bg_news.png) no-repeat 0 100%;
 	padding:0 0 7px;
 	margin:16px 0 -5px;
-	overflow:hidden;
+	display:inline-block;
 	width:100%;
 }
 
@@ -287,11 +291,20 @@ body{
 	overflow:hidden;
 }
 
+#conteiner div.min-width div.soc{
+	width:535px;
+}
+
+#conteiner div.min-width div.box-text{
+	width:376px;
+}
+
 #conteiner div.soc{
-	background:#efefef;
-	overflow:hidden;
-	padding:5px 6px 2px 20px;
-	margin:18px 0 0;
+	background:#EFEFEF;
+    display: inline-block;
+    margin:18px 0 -4px;
+    padding: 5px 6px 2px 20px;
+    width: 577px;
 }
 
 #conteiner div.soc a.more{
@@ -382,7 +395,7 @@ body{
 
 #conteiner ul.posts div.soc-like{
 	width:100%;
-	overflow:hidden;
+	display:inline-block;
 	margin:13px 0 0;
 }
 
@@ -404,10 +417,11 @@ body{
 	border:1px solid #4489b4;
 }
 
-#conteiner div.box-text{
-	float:left;
-	width:365px;
-	overflow:hidden;
+#conteiner div.box-text {
+    float: left;
+    overflow: hidden;
+    text-align: justify;
+    width: 422px;
 }
 
 #conteiner div.box-text h3 a{
@@ -1130,7 +1144,7 @@ div.likes-col-5{
 }
 
 div.soc-line{
-	overflow:hidden;
+	display:inline-block;
 	width:100%;
 	margin:0 0 5px;
 }
