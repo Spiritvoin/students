@@ -194,7 +194,7 @@ body{
 
 #conteiner{
 	width:100%;
-	overflow:hidden;
+	display:inline-block;
 }
 
 #conteiner div.boxer{
@@ -772,7 +772,7 @@ h1{
 
 #conteiner div.pages{
 	width:561px;
-	overflow:hidden;
+	display:inline-block;
 }
 
 #conteiner div.list-url{
@@ -1032,7 +1032,7 @@ h3{
 #conteiner div.item{
 	width:100%;
 	margin:0 0 15px;
-	overflow:hidden;
+	display:inline-block;
 }
 
 #conteiner div.item label{
