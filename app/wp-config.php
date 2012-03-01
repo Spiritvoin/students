@@ -26,7 +26,7 @@ define('DB_PASSWORD', 'admin');
 
 /** Имя сервера MySQL */
 
-define('DB_HOST', '192.168.0.1');
+define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
