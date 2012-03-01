@@ -322,14 +322,13 @@ body{
 #conteiner ul.posts{
 	width:108%;
 	margin:0 0 13px;
-	overflow:hidden;
+	display:inline-block;
 }
 
 #conteiner ul.posts li{
 	width:255px;
-	overflow:hidden;
 	border-right:2px dashed #e4e4e4;
-	overflow:hidden;
+	display:inline-block;
 	padding:0 24px 0 0;
 	margin:0 20px 0 0;
 	float:left;
@@ -1127,14 +1126,12 @@ div.likes-col-3{
 div.likes-col-4{
 	float: left;
     height: 23px;
-    overflow: hidden;
     width: 157px;
 
 }
 div.likes-col-4-1{
     float: left;
     height: 23px;
-    overflow: hidden;
     width: 157px;
     margin-top: 5px;
 }
