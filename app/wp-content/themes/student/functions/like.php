@@ -51,7 +51,7 @@ function shortcode_social_likes_loop()
         <?php facebook(); ?>
     </div>
 </div>
-<script type="text/javascript">VK.Widgets.Like("vk_like_<?php the_ID(); ?>", {type:"button", width:205, pageUrl: '<?php the_permalink(); ?>', verb: 1, pageImage: '<?php the_thumbnail_src(); ?>'});</script>
+<script type="text/javascript">VK.Widgets.Like("vk_like_<?php the_ID(); ?>", {type:"mini", width:205, pageUrl: '<?php the_permalink(); ?>', verb: 1, pageImage: '<?php the_thumbnail_src(); ?>'});</script>
 <?php
 }
 
