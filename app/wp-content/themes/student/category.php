@@ -9,12 +9,7 @@
             <div class="top-cat">
                 <span class="date"><?php the_time('d.m.y');?></span>
                 <a href="<?php the_permalink();?>" class="tags"><?php
-                    $posttags = get_the_tags();
-                    if ($posttags) {
-                        foreach ($posttags as $tag) {
-                            echo $tag->name . ' ';
-                        }
-                    }
+                    echo single_cat_title( '', false );
                     ?>
                 </a>
             </div>
