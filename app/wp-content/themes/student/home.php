@@ -42,9 +42,9 @@ get_header(); ?>
                     </div>
                     <div class="top-cat">
                         <span class="date"><?php the_time('d:m:y'); ?></span>
-                        <a href="<?php the_permalink();?>" class="tags"><?php
+                        <a href="<?php get_the_category_list(); ?>" class="tags"><?php
                        //     echo single_cat_title( '', false );
-                       	      echo get_the_category_list();
+                       	    //  echo get_the_category_list();
                             ?>
                         </a>
                       
