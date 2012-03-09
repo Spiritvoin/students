@@ -46,7 +46,7 @@ get_header(); ?>
                             echo single_cat_title( '', false );
                             ?>
                         </a>
-     //                   <?php echo get_the_category_list(); ?>
+                      <?php // echo get_the_category_list(); ?>
                     </div>
                     <?php $a=get_the_content(); kama_excerpt(array("maxchar" => 380, "text" => $a));?>
 
