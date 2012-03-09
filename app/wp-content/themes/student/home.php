@@ -43,10 +43,11 @@ get_header(); ?>
                     <div class="top-cat">
                         <span class="date"><?php the_time('d:m:y'); ?></span>
                         <a href="<?php the_permalink();?>" class="tags"><?php
-                            echo single_cat_title( '', false );
+                       //     echo single_cat_title( '', false );
+                       	      echo get_the_category_list();
                             ?>
                         </a>
-                      <?php // echo get_the_category_list(); ?>
+                      
                     </div>
                     <?php $a=get_the_content(); kama_excerpt(array("maxchar" => 380, "text" => $a));?>
 
